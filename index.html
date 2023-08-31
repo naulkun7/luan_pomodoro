@@ -37,7 +37,28 @@
     <title>Pomodoro Timer</title>
   </head>
   <body>
-    <div class="container"></div>
+    <div class="container">
+      <h1>Pomodoro</h1>
+
+      <div class="panel">
+        <p id="work">Work</p>
+        <p id="break">Break</p>
+      </div>
+
+      <div class="timer">
+        <div class="time">
+          <span id="minutes">25</span>
+          <span>:</span>
+          <span id="seconds">00</span>
+        </div>
+      </div>
+
+      <div class="control">
+        <button id="start" class="btn btn-success">Start</button>
+        <button id="pause" class="btn btn-warning">Pause</button>
+        <button id="reset" class="btn btn-danger">Reset</button>
+      </div>
+    </div>
     <!-- JS BOOTSTRAP -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
